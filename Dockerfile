@@ -10,3 +10,4 @@ RUN fix-permissions "${CONDA_DIR}"
 RUN fix-permissions "/home/${NB_USER}"
 
 RUN echo "hello"
+RUN echo "i updated the user and pass"
